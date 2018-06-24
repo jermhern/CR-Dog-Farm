@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cedar River Dog Farm</title>
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="./img/logo.jpg">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="icon-holder">
+		<img src="./img/dog.png" alt="corgi">
+			<h1 class="title">Cedar River Dog Farm</h1>
+			<span style="font-size:5em;cursor:pointer; font-family: 'Josefin Sans', sans-serif;" onclick="openNav()">&#9776; Menu</span>
+	</div>
+
+	<div id="mySideNav" class="sideNav">
+		<a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times; Close</a>
+		<a href="./index.html">Home</a>
+		<a href="./daycare.html">Daycare & Boarding</a>
+		<a href="./about.html">About Us</a>
+		<a href="./contact.html">Contact Us</a>
+		<a href="./requirements.html">Requirements</a>
+		<a href="./application.html">Application</a>
+		<a href="./media.html">Media</a>
+	</div>
+
+	<div class="home-body">
+		<img class="body-image" src="./img/corgis.jpg" alt="two corgis">
+
+		<div class="text-container">
+		<p class="body-text">Your dog won't want to leave after a day at the farm!</p> 
+			<p class="body-text">We are a family-owned 7 acre farm in Maple Valley, WA.  Cedar River Dog farm offers day care and boarding for your furry friend. Your dog will enjoy quality, loving care and play ALL DAY 
+			off-leash with their best friends. We live on the farm, so your dog is supervised at all times. Come visit us and see what a special place we offer for dogs. </p>
+		</div>
+
+		<img class="body-image" src="./img/pug.jpg" alt="cute pug looking at camera">
+
+		<div class="text-container">
+			<p class="body-text"><strong>Cedar River Dog Farm</strong><br> is a privately owned and operated business offering 14 overnight kennels in our Barn.Each kennel has it's own above-the-ground bed for added comfort. Dogs spend the day in one of our three yards and sleep in their own kennel at night.</p>
+		</div>
+
+		<div class="text-container">
+			<p class="body-text">Dogs are <i>always</i> supervised during the day. At night we're just feet away if they need us.</p>
+		</div>
+
+		<div class="info-box body-text">
+			<p>Reservations:</p>
+			<p>425-985-5741</p>
+			<p><a class="link" href="mailto:info@cedarriverdogfarm.com for">Email us</a> for more info!</p>
+		</div>
+
+		<div class="info-box body-text">
+			<p>Our Location:</p>
+			<p><a class="link" href="https://www.google.com/maps/place/24852+SE+224th+St,+Maple+Valley,+WA+98038/@47.4020336,-122.0115077,17z/data=!3m1!4b1!4m5!3m4!1s0x549061af6b7e49c5:0xd5c5092efecd40d6!8m2!3d47.40203!4d-122.009319">24852 SE 224th Street Maple Valley, WA 98038</a></p>
+		</div>
+
+		<footer>
+			<div class="info-box body-text">
+				<a href="https://www.facebook.com/CedarRiverDogFarm/"><i style="color: #3B5998;" class="fab fa-facebook-square fa-4x"></i></a>
+				<p>Copyright 2018<br>Cedar River Dog Farm.<br>All rights reserved</p>
+				<p><a class="link" href="https://jermhern.github.io/Portfolio-June/">Made by a dog lover.</p></a>
+			</div>
+		</footer>
+	</div>
+	
+
+<script type="text/javascript">
+	function openNav() {
+		document.querySelector('#mySideNav').style.width = '100%';
+	}
+
+	function closeNav() {
+		document.querySelector('#mySideNav').style.width = '0';
+	}
+</script>
+</body>
+</html>

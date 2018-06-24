@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cedar River Dog Farm</title>
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="./img/logo.jpg">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="icon-holder">
+		<img src="./img/dog.png">
+			<h1 class="title">Daycare & Boarding</h1>
+			<span style="font-size:5em;cursor:pointer; font-family: 'Josefin Sans', sans-serif;" onclick="openNav()">&#9776; Menu</span>
+	</div>
+
+	<div id="mySideNav" class="sideNav">
+		<a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times; Close</a>
+		<a href="./index.html">Home</a>
+		<a href="./daycare.html">Daycare & Boarding</a>
+		<a href="./about.html">About Us</a>
+		<a href="./contact.html">Contact Us</a>
+		<a href="./requirements.html">Requirements</a>
+		<a href="./application.html">Application</a>
+		<a href="./media.html">Media</a>
+	</div>
+
+	<div class="text-container body-text">
+		<p>Cedar River Dog farm is open from February to December, with on-site staff 24/7. Our avaiability in January varies as our staff members take vacation during that time. Please check our FaceBook page for days open in January. <br><br> We are open for pick ups and drop offs from 7 am to 6 pm. <br><br>Tours, day care, and boarding are by <strong><i>appointment only.</i></strong></p>
+
+		<div class="info-box">
+			<p><strong><span style="color: grey;">Boarding</span></strong><br><br> Why not give your dog a vacation when you're out of town? Boarding offers your dog an ideal doggie holiday - lots of attention, playing all day with friends, and lounging on the couch!<br><br>Monday - Sunday<br>7 am - 6 pm <br> $35 per dog per night <br><br> For 1 or 2 dogs:<br>10% discount for a 5-night stay,<br>15% discount for a 15-night stay <br><br> For 3 or more dogs:<br> 15% discount for a 5-night stay, <br> 20% discount for a 15-night stay</p>
+		</div>
+
+		<div class="info-box">
+			<p><strong><span style="color: grey;">Doggie Daycare</span></strong><br><br> Every dog could use a little more play time! While you're at work, give your dog a chance to zoom around! Dogs always leave happy and tired from a fun day at daycare!<br><br>Monday - Friday <br>from 7am - 6pm <br>$30 per dog<br>(discounts for 5 & 10 day packages)<br><br><strong><span style="color: grey;">Daycare and Boarding</span></strong><br><br>Dogs get to play together no matter the weather! We love to run, play soccer, fetch, frisbee, chase, have snowball fights, bask in the sun, take a dip in the doggie pool, and make sure every dog gets all the attention and belly rubs they could ask for! Your dog will be begging to come back!</p>
+		</div>
+	</div>
+
+	<img class="body-image" src="./img/smilingdog.jpeg">
+
+
+		<footer>
+			<div class="info-box body-text">
+				<a href="https://www.facebook.com/CedarRiverDogFarm/"><i style="color: #3B5998;" class="fab fa-facebook-square fa-4x"></i></a>
+				<p>Copyright 2018<br>Cedar River Dog Farm.<br>All rights reserved</p>
+				<p><a class="link" href="https://jermhern.github.io/Portfolio-June/">Made by a dog lover.</p></a>
+			</div>
+		</footer>
+	</div>
+	
+
+<script type="text/javascript">
+	function openNav() {
+		document.querySelector('#mySideNav').style.width = '100%';
+	}
+
+	function closeNav() {
+		document.querySelector('#mySideNav').style.width = '0';
+	}
+</script>
+</body>
+</html>

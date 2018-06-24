@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cedar River Dog Farm</title>
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="./img/logo.jpg">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="icon-holder">
+		<img src="./img/dog.png">
+			<h1 class="title">Application</h1>
+			<span style="font-size:5em;cursor:pointer; font-family: 'Josefin Sans', sans-serif;" onclick="openNav()">&#9776; Menu</span>
+	</div>
+
+	<div id="mySideNav" class="sideNav">
+		<a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times; Close</a>
+		<a href="./index.html">Home</a>
+		<a href="./daycare.html">Daycare & Boarding</a>
+		<a href="./about.html">About Us</a>
+		<a href="./contact.html">Contact Us</a>
+		<a href="./requirements.html">Requirements</a>
+		<a href="./application.html">Application</a>
+		<a href="./media.html">Media</a>
+	</div>
+
+	<div class="body-text text-container">Ready to give your dog a real treat? <br><br>Fill out the form <a class="link" href="./contract/contract.pdf"><i>HERE</i></a> <br><br>and bring it with you and your dog on your tour!</div>
+
+
+	<footer>
+		<div class="info-box body-text">
+			<a href="https://www.facebook.com/CedarRiverDogFarm/"><i style="color: #3B5998;" class="fab fa-facebook-square fa-4x"></i></a>
+			<p>Copyright 2018<br>Cedar River Dog Farm.<br>All rights reserved</p>
+			<p><a class="link" href="https://jermhern.github.io/Portfolio-June/">Made by a dog lover.</p></a>
+		</div>
+	</footer>
+	</div>
+	
+
+	<script type="text/javascript">
+		function openNav() {
+			document.querySelector('#mySideNav').style.width = '100%';
+		}
+
+		function closeNav() {
+			document.querySelector('#mySideNav').style.width = '0';
+		}
+	</script>
+</body>
+</html>
