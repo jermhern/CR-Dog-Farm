@@ -45,8 +45,8 @@ body, html {
 	margin-bottom: 5%;
 	background-color: #DCEDB9;
 	border-radius: 5px;
-	/*width: 20%;*/
-	padding: 5%;
+	width: 75%;
+	padding: 2%;
 }
 
 .info-box p {
@@ -157,6 +157,6 @@ footer {
 
 	.sideNav a { 
 		font-size: 2em;
-		padding: 2	%;
+		padding: 2%;
 	}
 }
