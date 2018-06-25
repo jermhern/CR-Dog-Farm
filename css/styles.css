@@ -19,6 +19,10 @@ body, html {
 	padding: 5%;
 }
 
+#menu {
+	font-size: 5em;
+}
+
 /*title underneath image*/
 .title {
 	font-size: 4em;
@@ -58,20 +62,15 @@ body, html {
 
 /*keep text looking organized*/
 .text-container {
-	margin: 10%;
+	margin: 5% 10% 5% 10%;
 }
 
 /*images in the body*/
 .body-image {
 	background-color: #DCEDB9;
 	padding: 5%;
-	margin-top: 5%;
+	margin: 2%;
 	border-radius: 5px;
-}
-
-#long-photo {
-	width: 50%;
-	height: 50%;
 }
 
 /*side navigation*/
@@ -100,8 +99,8 @@ body, html {
 	transition: 0.5s;
 }
 
-.sideNav a:hover, .sideNav a:active, {
-	color: green;
+.sideNav a:hover {
+	color: #6EB257;
 }
 
 /*side nav and close button */
@@ -116,4 +115,43 @@ body, html {
 /*footer*/
 footer {
 	margin-top: 5%;
+}
+
+/* tablet and laptop view */
+@media screen and (min-width: 768px) and (max-width: 1423px) {
+	img {
+		width: 35%;
+		height: 35%;
+	}
+	
+	.icon-holder img {
+		width: 15%;
+		height: 15%;
+	}
+
+	.title {
+		font-size: 3em;
+	}
+
+	.body-image {
+		padding: 3%;
+	}
+
+	.body-text {
+		font-size: 2.3em;
+	}
+
+	#menu {
+		font-size: 3em;
+	}
+
+	.info-box {
+		width: 40%;
+		padding: 3%;
+	}
+
+	.sideNav a { 
+		font-size: 2em;
+		padding: 2%;
+	}
 }
