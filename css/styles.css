@@ -73,6 +73,11 @@ body, html {
 	border-radius: 5px;
 }
 
+/* center media pane*/
+.embedsocial-album {
+	display: inline-block;
+}
+
 .body-image {
 	width: 60%;
 	height: 60%;
