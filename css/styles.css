@@ -1,120 +1,122 @@
-body, html {
-	background-color: #6EB257;
-	margin: 0;
-	text-align: center;
-}
+@media screen and (min-width: 300px) {
+	body, html {
+		background-color: #6EB257;
+		margin: 0;
+		text-align: center;
+	}
 
 
-/* icon holder */
-.icon-holder {
-	background-color: white;
-	width: 100%;
-	text-align: center;
-}
+	/* icon holder */
+	.icon-holder {
+		background-color: white;
+		width: 100%;
+		text-align: center;
+	}
 
-/*icon image */
-.icon-holder img {
-	width: 30%;
-	height: 30%;
-	padding: 5%;
-}
+	/*icon image */
+	.icon-holder img {
+		width: 30%;
+		height: 30%;
+		padding: 5%;
+	}
 
-#menu {
-	font-size: 5em;
-}
+	#menu {
+		font-size: 5em;
+	}
 
-/*title underneath image*/
-.title {
-	font-size: 4em;
-	font-family: 'Josefin Sans', sans-serif;
-	padding-bottom: 1%;
-}
+	/*title underneath image*/
+	.title {
+		font-size: 4em;
+		font-family: 'Josefin Sans', sans-serif;
+		padding-bottom: 1%;
+	}
 
-/*text of the body*/
-.body-text {
-	font-family: 'Josefin Sans', sans-serif;
-	color: white;
-	font-size: 3.3em;
-}
+	/*text of the body*/
+	.body-text {
+		font-family: 'Josefin Sans', sans-serif;
+		color: white;
+		font-size: 3.3em;
+	}
 
-/* boxed that hold information such as reservations or address*/
+	/* boxed that hold information such as reservations or address*/
 
-.info-box {
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 5%;
-	background-color: #DCEDB9;
-	border-radius: 5px;
-	width: 75%;
-	padding: 5%;
-}
+	.info-box {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 5%;
+		background-color: #DCEDB9;
+		border-radius: 5px;
+		width: 75%;
+		padding: 5%;
+	}
 
-.info-box p {
-	color: #111;
-}
+	.info-box p {
+		color: #111;
+	}
 
-/*email link*/
-.link {
-	text-decoration: none;
-	color: #816C61;
-	cursor: pointer;
-}
+	/*email link*/
+	.link {
+		text-decoration: none;
+		color: #816C61;
+		cursor: pointer;
+	}
 
-/*keep text looking organized*/
-.text-container {
-	margin: 5% 10% 5% 10%;
-}
+	/*keep text looking organized*/
+	.text-container {
+		margin: 5% 10% 5% 10%;
+	}
 
-/*images in the body*/
-.body-image {
-	background-color: #DCEDB9;
-	padding: 5%;
-	margin: 2%;
-	border-radius: 5px;
-}
+	/*images in the body*/
+	.body-image {
+		background-color: #DCEDB9;
+		padding: 5%;
+		margin: 2%;
+		border-radius: 5px;
+	}
 
-/*side navigation*/
-.sideNav {
-	height: 100%;
-	width: 0;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	background-color: #111;
-	overflow-x: hidden;
-	transition: 0.5s;
-	padding-top: 5%;
-	position: fixed;
+	/*side navigation*/
+	.sideNav {
+		height: 100%;
+		width: 0;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background-color: #111;
+		overflow-x: hidden;
+		transition: 0.5s;
+		padding-top: 5%;
+		position: fixed;
 
-}
+	}
 
-/*side navigation links*/
-.sideNav a {
-	font-family: 'Josefin Sans', sans-serif;
-	padding: 5%;
-	text-decoration: none;
-	font-size: 4em;
-	color: grey;
-	display: block;
-	transition: 0.5s;
-}
+	/*side navigation links*/
+	.sideNav a {
+		font-family: 'Josefin Sans', sans-serif;
+		padding: 5%;
+		text-decoration: none;
+		font-size: 4em;
+		color: grey;
+		display: block;
+		transition: 0.5s;
+	}
 
-.sideNav a:hover {
-	color: #6EB257;
-}
+	.sideNav a:hover {
+		color: #6EB257;
+	}
 
-/*side nav and close button */
-.sideNav .closeBttn {
-	position: absolute;
-	top: 0;
-	right: 25px;
-	font-size: 36px;
-	margin-left: 50px;
-}
+	/*side nav and close button */
+	.sideNav .closeBttn {
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+	}
 
-/*footer*/
-footer {
-	margin-top: 5%;
+	/*footer*/
+	footer {
+		margin-top: 5%;
+	}
 }
 
 /* tablet and laptop view */
@@ -152,6 +154,6 @@ footer {
 
 	.sideNav a { 
 		font-size: 2em;
-		padding: 2%;
+		padding: 2	%;
 	}
 }
